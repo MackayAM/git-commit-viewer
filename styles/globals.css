@@ -1,4 +1,23 @@
-/* ./styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.circle-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-button--inactive {
+    opacity: 0.2;
+}
+
+.initials {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
